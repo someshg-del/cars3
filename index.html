@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <title>cars </title>
+<style>
+body{
+    background-image: url("lab.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#mycanvas
+{
+    border-width:10px;
+    background-color: white; 
+    border-style:ridge;
+}
+
+h1,h4,h2
+{
+    color: white !important;
+}
+#game-status
+{
+
+    color:white;
+    font-size: 20px;
+}
+</style>        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Car racing</title>
+</head>
+<body onload="add();">
+
+<center>
+<h1>Car racing</h1>
+<h2> Game status</h2>
+<div id="game-status"></div>
+<canvas id="mycanvas" height="600" width="800"></canvas>
+<h4>
+    <b class="text-danger">NOTE : </b> IF CAR IS NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+</center>
+
+<script src="main.js">
+</script>
+</body>
+</html>
